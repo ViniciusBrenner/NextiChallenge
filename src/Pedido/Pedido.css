@@ -1,0 +1,127 @@
+.Pedido {
+  display: flex;
+  flex: 1;
+
+
+  flex-direction: column;
+
+  align-items: center;
+}
+
+.Card{
+    display: flex;
+    flex: 1;
+    border:#505050 1px solid;
+    border-radius: 20px;
+
+    width: 50%;
+    max-height: 90%;
+
+    margin: 2%;
+    padding: 1%;
+
+    flex-direction: column;   
+
+    background: rgb(9,23,43);
+    background: linear-gradient(45deg, rgba(9,23,43,1) 39%, rgba(8,26,19,1) 85%);
+}
+
+.CardDisplay{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap:wrap;
+    overflow-y: scroll;   
+}
+
+.OrderCard{
+    display: flex;
+    
+    flex-direction: row;
+    border-radius: 10px;
+
+    width: 280px;
+    min-height:150px;
+
+    margin:1%;
+     background: rgb(59,59,59);
+background: linear-gradient(0deg, rgba(59,59,59,1) 39%, rgba(0,0,0,1) 85%); 
+
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+
+
+.OrderLeft{
+    display: flex;
+    
+    flex:1;
+    flex-direction: row;
+    
+    justify-content: center;
+    align-items: center;
+
+}
+
+.OrderRight{
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex:2;
+    flex-direction: column;
+    margin:1%;
+}
+
+.OrderButtons{
+    display: flex;
+    align-items:center;
+    padding-left : 5%;
+    padding-right: 5%;
+    flex:1;
+}
+
+.OrderIcon {
+  display: flex;
+  width: 50px;
+  height: 50px;
+  
+  align-self: center;
+  justify-self: center;
+
+}
+
+.DeleteButton {
+  font-size:10px;
+  font-family:Arial;
+margin: 5%;
+  padding:5px;
+
+    
+  border-width:1px;
+  color:#777777;
+  border-color:#dcdcdc;
+  font-weight:bold;
+
+  box-shadow:inset 0px 1px 0px 0px #ffffff;
+  text-shadow:inset 0px 1px 0px #ffffff;
+  background:linear-gradient(#ededed, #dfdfdf);
+}
+
+.DeleteButton:hover {
+  background: linear-gradient(#dfdfdf, #ededed);
+}
+
+.InputBox{
+  flex: 1;
+  background-color:transparent;
+  color:white;
+  outline: none;
+
+  width: 80%;
+  
+  border-top: 0px;
+  border-left: 0px;
+  border-right: 0px;
+}

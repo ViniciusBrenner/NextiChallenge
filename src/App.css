@@ -1,0 +1,72 @@
+.Wrapper {
+  display: flex;
+  
+  position: absolute;
+  top: 0px; left: 0px;
+  
+  width: 100%;
+  height: 100%;
+
+  flex-direction: column;
+
+  font-family:Arial;
+  font-size:10px;
+  color: #c9d1d9;
+
+}
+
+.Header{
+    display:flex;
+    flex: 1;
+
+    background-color: #161b22;
+    flex-direction: row;
+
+     align-items: flex-end;
+    
+}
+
+.Contents{
+    display:flex;
+    flex: 9;
+
+    background-color:#010409;
+
+    align-items: stretch;
+    justify-content: stretch;
+}
+
+.HeaderButtonActived{
+    display:flex;
+    cursor:pointer;
+    padding:.5%;
+
+    background-color: transparent;
+    width: 10%;
+    height: 30%;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+
+    border-bottom: 2px solid aliceblue;
+
+    color: aliceblue;
+
+    font-weight: bold;
+    
+}
+
+.HeaderButtonUnactived{
+    display:flex;
+    cursor:pointer;
+    padding:.5%;
+
+    background-color: transparent;
+    width: 10%;
+    height: 30%;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
